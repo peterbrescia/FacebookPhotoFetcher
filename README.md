@@ -13,7 +13,7 @@ Pkg.clone("https://github.com/peterbrescia/FacebookPhotoFetcher.jl")
 - In a julia prompt, type the following:
 ```jl
 using FacebookPhotoFetcher
-fetch_photos(access_tokens, save_directory)
+fetch_photos(access_token, save_directory)
 ```
 - Your photos will be saved to `save_directory`.
 
