@@ -2,14 +2,14 @@
 Tool for downloading from Facebook all photos that user is tagged in (see Notes).
 
 # Setup
-- Install Julia (>v0.4)
+- Install Julia (v0.5)
 - Run the following into your `julia` prompt:
 ```jl
 Pkg.clone("https://github.com/peterbrescia/FacebookPhotoFetcher.jl")
 ```
 
 # Running
-- Create a FB access token for the Graph API with user photos permission.
+- Create a FB access token for the Graph API with `user_photos` permission.
 - In a julia prompt, type the following:
 ```jl
 using FacebookPhotoFetcher
